@@ -1,0 +1,20 @@
+name = "AntibodyMethodsDoseResponseRecipes"
+uuid = "43b90986-2b19-4193-afb8-6103b6f5d350"
+authors = ["Dominik Tschimmel <dominik.tschimmel.contact@gmail.com> and contributors"]
+version = "0.1.0"
+
+[deps]
+AdaptiveDensityApproximation = "56a9bb0d-c37d-45c9-8e6c-6c1c1baae5c6"
+AntibodyMethodsDoseResponse = "69c61766-33fa-4661-b145-6c090ebe636b"
+FittingObjectiveFunctions = "935aaf18-14c7-4785-87e9-38cf17c1e7c1"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
